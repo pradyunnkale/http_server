@@ -1,3 +1,12 @@
 [submodule "hal"]
 	path = hal
 	url = git@github.com:STMicroelectronics/stm32h7xx-hal-driver.git
+[submodule "lib/CMSIS_5"]
+	path = lib/CMSIS_5
+	url = https://github.com/ARM-software/CMSIS_5.git
+[submodule "lib/cmsis-device-h7"]
+	path = lib/cmsis-device-h7
+	url = https://github.com/STMicroelectronics/cmsis-device-h7.git
+[submodule "lib/stm32h7xx_hal_driver"]
+	path = lib/stm32h7xx_hal_driver
+	url = https://github.com/STMicroelectronics/stm32h7xx_hal_driver.git
