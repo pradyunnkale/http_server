@@ -1,0 +1,11 @@
+/home/prady/Projects/holo_display/build/CMakeFiles/flash.dir
+/home/prady/Projects/holo_display/build/CMakeFiles/edit_cache.dir
+/home/prady/Projects/holo_display/build/CMakeFiles/rebuild_cache.dir
+/home/prady/Projects/holo_display/build/lib/CMakeFiles/stm32h7xx_hal_driver.dir
+/home/prady/Projects/holo_display/build/lib/CMakeFiles/edit_cache.dir
+/home/prady/Projects/holo_display/build/lib/CMakeFiles/rebuild_cache.dir
+/home/prady/Projects/holo_display/build/drivers/CMakeFiles/edit_cache.dir
+/home/prady/Projects/holo_display/build/drivers/CMakeFiles/rebuild_cache.dir
+/home/prady/Projects/holo_display/build/app/CMakeFiles/holo_display.dir
+/home/prady/Projects/holo_display/build/app/CMakeFiles/edit_cache.dir
+/home/prady/Projects/holo_display/build/app/CMakeFiles/rebuild_cache.dir
