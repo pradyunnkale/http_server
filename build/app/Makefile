@@ -178,6 +178,30 @@ __/config/system_stm32h7xx.c.s:
 	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.s
 .PHONY : __/config/system_stm32h7xx.c.s
 
+__/drivers/ledcontrol/ledcontrol.obj: __/drivers/ledcontrol/ledcontrol.cpp.obj
+.PHONY : __/drivers/ledcontrol/ledcontrol.obj
+
+# target to build an object file
+__/drivers/ledcontrol/ledcontrol.cpp.obj:
+	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj
+.PHONY : __/drivers/ledcontrol/ledcontrol.cpp.obj
+
+__/drivers/ledcontrol/ledcontrol.i: __/drivers/ledcontrol/ledcontrol.cpp.i
+.PHONY : __/drivers/ledcontrol/ledcontrol.i
+
+# target to preprocess a source file
+__/drivers/ledcontrol/ledcontrol.cpp.i:
+	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.i
+.PHONY : __/drivers/ledcontrol/ledcontrol.cpp.i
+
+__/drivers/ledcontrol/ledcontrol.s: __/drivers/ledcontrol/ledcontrol.cpp.s
+.PHONY : __/drivers/ledcontrol/ledcontrol.s
+
+# target to generate assembly for a file
+__/drivers/ledcontrol/ledcontrol.cpp.s:
+	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.s
+.PHONY : __/drivers/ledcontrol/ledcontrol.cpp.s
+
 __/startup/startup_stm32h753xx.obj: __/startup/startup_stm32h753xx.s.obj
 .PHONY : __/startup/startup_stm32h753xx.obj
 
@@ -225,6 +249,9 @@ help:
 	@echo "... __/config/system_stm32h7xx.obj"
 	@echo "... __/config/system_stm32h7xx.i"
 	@echo "... __/config/system_stm32h7xx.s"
+	@echo "... __/drivers/ledcontrol/ledcontrol.obj"
+	@echo "... __/drivers/ledcontrol/ledcontrol.i"
+	@echo "... __/drivers/ledcontrol/ledcontrol.s"
 	@echo "... __/startup/startup_stm32h753xx.obj"
 	@echo "... display/main.obj"
 	@echo "... display/main.i"

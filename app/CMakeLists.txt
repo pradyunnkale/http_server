@@ -1,6 +1,7 @@
 add_executable(${PROJECT_NAME}
     display/main.cpp
     # Add your driver sources directly here when you create them:
+    ../drivers/ledcontrol/ledcontrol.cpp
     # ../drivers/motor/stepper.c
     # ../drivers/led/led_matrix.c
     # ../drivers/sensors/hall_sensor.c

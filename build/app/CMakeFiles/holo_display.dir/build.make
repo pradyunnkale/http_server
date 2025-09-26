@@ -86,9 +86,23 @@ app/CMakeFiles/holo_display.dir/display/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/holo_display.dir/display/main.cpp.s"
 	cd /home/prady/Projects/holo_display/build/app && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prady/Projects/holo_display/app/display/main.cpp -o CMakeFiles/holo_display.dir/display/main.cpp.s
 
+app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj: app/CMakeFiles/holo_display.dir/flags.make
+app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj: /home/prady/Projects/holo_display/drivers/ledcontrol/ledcontrol.cpp
+app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj: app/CMakeFiles/holo_display.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prady/Projects/holo_display/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj"
+	cd /home/prady/Projects/holo_display/build/app && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj -MF CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj.d -o CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj -c /home/prady/Projects/holo_display/drivers/ledcontrol/ledcontrol.cpp
+
+app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.i"
+	cd /home/prady/Projects/holo_display/build/app && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prady/Projects/holo_display/drivers/ledcontrol/ledcontrol.cpp > CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.i
+
+app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.s"
+	cd /home/prady/Projects/holo_display/build/app && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prady/Projects/holo_display/drivers/ledcontrol/ledcontrol.cpp -o CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.s
+
 app/CMakeFiles/holo_display.dir/__/startup/startup_stm32h753xx.s.obj: app/CMakeFiles/holo_display.dir/flags.make
 app/CMakeFiles/holo_display.dir/__/startup/startup_stm32h753xx.s.obj: /home/prady/Projects/holo_display/startup/startup_stm32h753xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prady/Projects/holo_display/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building ASM object app/CMakeFiles/holo_display.dir/__/startup/startup_stm32h753xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prady/Projects/holo_display/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building ASM object app/CMakeFiles/holo_display.dir/__/startup/startup_stm32h753xx.s.obj"
 	cd /home/prady/Projects/holo_display/build/app && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/holo_display.dir/__/startup/startup_stm32h753xx.s.obj -c /home/prady/Projects/holo_display/startup/startup_stm32h753xx.s
 
 app/CMakeFiles/holo_display.dir/__/startup/startup_stm32h753xx.s.i: cmake_force
@@ -102,7 +116,7 @@ app/CMakeFiles/holo_display.dir/__/startup/startup_stm32h753xx.s.s: cmake_force
 app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj: app/CMakeFiles/holo_display.dir/flags.make
 app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj: /home/prady/Projects/holo_display/config/system_stm32h7xx.c
 app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj: app/CMakeFiles/holo_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prady/Projects/holo_display/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prady/Projects/holo_display/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj"
 	cd /home/prady/Projects/holo_display/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj -MF CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj.d -o CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj -c /home/prady/Projects/holo_display/config/system_stm32h7xx.c
 
 app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.i: cmake_force
@@ -116,7 +130,7 @@ app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.s: cmake_force
 app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj: app/CMakeFiles/holo_display.dir/flags.make
 app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj: /home/prady/Projects/holo_display/config/stm32h7xx_it.c
 app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj: app/CMakeFiles/holo_display.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prady/Projects/holo_display/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/prady/Projects/holo_display/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj"
 	cd /home/prady/Projects/holo_display/build/app && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj -MF CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj.d -o CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj -c /home/prady/Projects/holo_display/config/stm32h7xx_it.c
 
 app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.i: cmake_force
@@ -130,6 +144,7 @@ app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.s: cmake_force
 # Object files for target holo_display
 holo_display_OBJECTS = \
 "CMakeFiles/holo_display.dir/display/main.cpp.obj" \
+"CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj" \
 "CMakeFiles/holo_display.dir/__/startup/startup_stm32h753xx.s.obj" \
 "CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj" \
 "CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj"
@@ -138,13 +153,14 @@ holo_display_OBJECTS = \
 holo_display_EXTERNAL_OBJECTS =
 
 app/holo_display: app/CMakeFiles/holo_display.dir/display/main.cpp.obj
+app/holo_display: app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj
 app/holo_display: app/CMakeFiles/holo_display.dir/__/startup/startup_stm32h753xx.s.obj
 app/holo_display: app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj
 app/holo_display: app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj
 app/holo_display: app/CMakeFiles/holo_display.dir/build.make
 app/holo_display: lib/libstm32h7xx_hal_driver.a
 app/holo_display: app/CMakeFiles/holo_display.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/prady/Projects/holo_display/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable holo_display"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/prady/Projects/holo_display/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable holo_display"
 	cd /home/prady/Projects/holo_display/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/holo_display.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

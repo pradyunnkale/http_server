@@ -30,6 +30,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/prady/Projects/holo_display/config/stm32h7xx_it.c" "app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj" "gcc" "app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj.d"
   "/home/prady/Projects/holo_display/config/system_stm32h7xx.c" "app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj" "gcc" "app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj.d"
+  "/home/prady/Projects/holo_display/drivers/ledcontrol/ledcontrol.cpp" "app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj" "gcc" "app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj.d"
   "/home/prady/Projects/holo_display/app/display/main.cpp" "app/CMakeFiles/holo_display.dir/display/main.cpp.obj" "gcc" "app/CMakeFiles/holo_display.dir/display/main.cpp.obj.d"
   )
 

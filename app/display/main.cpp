@@ -1,33 +1,71 @@
 #include <stdint.h>
+#include <string.h>
+#include "main.h"
 #include "stm32h7xx_hal.h"
+#include "../../drivers/ledcontrol/ledcontrol.h" // TODO: fix path
 
-// Function declarations
-void SystemClock_Config(void);
-void GPIO_Init(void);
+// Define the SPI handle (declared as extern in ledcontrol.h)
+SPI_HandleTypeDef hspi1;
 
 int main()
 {
 	HAL_Init();
-	GPIO_InitTypeDef GPIO_InitStruct = {0};
 
-	// Enable GPIOB clock
-	__HAL_RCC_GPIOB_CLK_ENABLE();
+	// Create LED controller instance
+	LEDControl led_controller(&hspi1);
 
-	// Configure PB0 (Green LED) as output
-	GPIO_InitStruct.Pin = GPIO_PIN_0;
-	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-	GPIO_InitStruct.Pull = GPIO_NOPULL;
-	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-	HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+	// Initialize the LED strip
+	led_controller.initialize_strip();
 
-	// Start with LED off
-	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+	// Initialize LED states (all LEDs on for testing)
+	memset(led_controller.led_states, 0xFF, sizeof(led_controller.led_states));
 
 	while (true)
 	{
-		// Toggle Green LED on PB0
-		HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
-		HAL_Delay(500); // 500ms delay
+		// Set LED states on (all bits to 1 for brightness)
+		memset(led_controller.led_states, 0xFF, sizeof(led_controller.led_states));
+
+		// Turn on first 5 LEDs
+		for (int i = 0; i < 5; i++)
+		{
+			LEDControl::LED_State led = led_controller.create_led(i);
+			led.on = true;
+			led_controller.set_led_state(&led);
+		}
+
+		// Wait 1 second
+		HAL_Delay(1000);
+
+		// Turn off LEDs
+		memset(led_controller.led_states, 0x00, sizeof(led_controller.led_states));
+
+		for (int i = 0; i < 5; i++)
+		{
+			LEDControl::LED_State led = led_controller.create_led(i);
+			led.on = false;
+			led_controller.set_led_state(&led);
+		}
+
+		// Wait 1 second
+		HAL_Delay(1000);
+
+		// Rainbow pattern - alternate different LEDs
+		for (int pattern = 0; pattern < 3; pattern++)
+		{
+			// Clear all LEDs first
+			memset(led_controller.led_states, 0x00, sizeof(led_controller.led_states));
+
+			// Turn on every 3rd LED starting from pattern offset
+			for (int i = pattern; i < 15; i += 3)
+			{
+				LEDControl::LED_State led = led_controller.create_led(i);
+				led.on = true;
+				led_controller.set_led_state(&led);
+			}
+
+			// Wait 500ms
+			HAL_Delay(500);
+		}
 	}
 	return 0;
 }

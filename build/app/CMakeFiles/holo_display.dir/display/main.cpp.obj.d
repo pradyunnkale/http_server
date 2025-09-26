@@ -7,6 +7,21 @@ app/CMakeFiles/holo_display.dir/display/main.cpp.obj: \
  /usr/arm-none-eabi/include/_newlib_version.h \
  /usr/arm-none-eabi/include/sys/_intsup.h \
  /usr/arm-none-eabi/include/sys/_stdint.h \
+ /usr/arm-none-eabi/include/string.h /usr/arm-none-eabi/include/_ansi.h \
+ /usr/arm-none-eabi/include/newlib.h \
+ /usr/arm-none-eabi/include/sys/config.h \
+ /usr/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/arm-none-eabi/include/sys/reent.h \
+ /usr/arm-none-eabi/include/_ansi.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.0/include/stddef.h \
+ /usr/arm-none-eabi/include/sys/cdefs.h \
+ /usr/arm-none-eabi/include/sys/_types.h \
+ /usr/arm-none-eabi/include/machine/_types.h \
+ /usr/arm-none-eabi/include/sys/lock.h \
+ /usr/arm-none-eabi/include/sys/_locale.h \
+ /usr/arm-none-eabi/include/strings.h \
+ /usr/arm-none-eabi/include/sys/string.h \
+ /home/prady/Projects/holo_display/config/main.h \
  /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/stm32h7xx_hal.h \
  /home/prady/Projects/holo_display/config/stm32h7xx_hal_conf.h \
  /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/stm32h7xx_hal_rcc.h \
@@ -21,7 +36,6 @@ app/CMakeFiles/holo_display.dir/display/main.cpp.obj: \
  /home/prady/Projects/holo_display/lib/CMSIS_5/CMSIS/Core/Include/cachel1_armv7.h \
  /home/prady/Projects/holo_display/lib/cmsis-device-h7/Include/system_stm32h7xx.h \
  /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/Legacy/stm32_hal_legacy.h \
- /usr/lib/gcc/arm-none-eabi/14.2.0/include/stddef.h \
  /usr/arm-none-eabi/include/c++/14.2.0/math.h \
  /usr/arm-none-eabi/include/c++/14.2.0/cmath \
  /usr/arm-none-eabi/include/c++/14.2.0/bits/requires_hosted.h \
@@ -31,14 +45,7 @@ app/CMakeFiles/holo_display.dir/display/main.cpp.obj: \
  /usr/arm-none-eabi/include/c++/14.2.0/pstl/pstl_config.h \
  /usr/arm-none-eabi/include/c++/14.2.0/bits/cpp_type_traits.h \
  /usr/arm-none-eabi/include/c++/14.2.0/ext/type_traits.h \
- /usr/arm-none-eabi/include/math.h /usr/arm-none-eabi/include/sys/reent.h \
- /usr/arm-none-eabi/include/_ansi.h /usr/arm-none-eabi/include/newlib.h \
- /usr/arm-none-eabi/include/sys/config.h \
- /usr/arm-none-eabi/include/machine/ieeefp.h \
- /usr/arm-none-eabi/include/sys/cdefs.h \
- /usr/arm-none-eabi/include/sys/_types.h \
- /usr/arm-none-eabi/include/machine/_types.h \
- /usr/arm-none-eabi/include/sys/lock.h /usr/arm-none-eabi/include/_ansi.h \
+ /usr/arm-none-eabi/include/math.h \
  /usr/arm-none-eabi/include/c++/14.2.0/bits/std_abs.h \
  /usr/arm-none-eabi/include/stdlib.h \
  /usr/arm-none-eabi/include/machine/stdlib.h \
@@ -167,4 +174,5 @@ app/CMakeFiles/holo_display.dir/display/main.cpp.obj: \
  /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/stm32h7xx_hal_pcd.h \
  /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/stm32h7xx_ll_usb.h \
  /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/stm32h7xx_hal_pcd_ex.h \
- /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/stm32h7xx_hal_hcd.h
+ /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/stm32h7xx_hal_hcd.h \
+ /home/prady/Projects/holo_display/app/display/../../drivers/ledcontrol/ledcontrol.h
