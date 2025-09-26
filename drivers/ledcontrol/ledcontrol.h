@@ -17,14 +17,17 @@ private:
     SPI_HandleTypeDef *hspi;
 
 public:
-    uint8_t led_buffer[LED_BUFFER_SIZE]; // Buffer to store LED data (public for testing)
+    uint8_t led_buffer[LED_BUFFER_SIZE];                           // Buffer to store LED data (public for testing)
     unsigned int led_states[MAX_DEGREES][LEDS_PER_STRIP / 32 + 1]; // Bit-packed LED states
+
     struct LED_State
     {
         uint16_t degrees;
         uint8_t led_number;
-        bool on;
     };
+
+    LEDControl::LED_State all_leds[144];
+
     LEDControl(SPI_HandleTypeDef *spi);
     void initialize_strip(void);
     LED_State create_led(uint8_t led_number);

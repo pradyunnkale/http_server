@@ -308,7 +308,6 @@ app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj: /home/
   /usr/lib/gcc/arm-none-eabi/14.2.0/include/stdint.h
 
 app/CMakeFiles/holo_display.dir/display/main.cpp.obj: /home/prady/Projects/holo_display/app/display/main.cpp \
-  /home/prady/Projects/holo_display/drivers/ledcontrol/ledcontrol.h \
   /home/prady/Projects/holo_display/config/main.h \
   /home/prady/Projects/holo_display/config/stm32h7xx_hal_conf.h \
   /home/prady/Projects/holo_display/lib/CMSIS_5/CMSIS/Core/Include/cachel1_armv7.h \

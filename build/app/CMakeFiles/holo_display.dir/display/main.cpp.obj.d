@@ -174,5 +174,4 @@ app/CMakeFiles/holo_display.dir/display/main.cpp.obj: \
  /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/stm32h7xx_hal_pcd.h \
  /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/stm32h7xx_ll_usb.h \
  /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/stm32h7xx_hal_pcd_ex.h \
- /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/stm32h7xx_hal_hcd.h \
- /home/prady/Projects/holo_display/app/display/../../drivers/ledcontrol/ledcontrol.h
+ /home/prady/Projects/holo_display/lib/stm32h7xx_hal_driver/Inc/stm32h7xx_hal_hcd.h
