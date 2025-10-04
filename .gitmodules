@@ -10,3 +10,9 @@
 [submodule "lib/stm32h7xx_hal_driver"]
 	path = lib/stm32h7xx_hal_driver
 	url = https://github.com/STMicroelectronics/stm32h7xx_hal_driver.git
+[submodule "lib/FreeRTOS"]
+	path = lib/FreeRTOS
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "lib/lwip"]
+	path = lib/lwip
+	url = git@github.com:lwip-tcpip/lwip.git

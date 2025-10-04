@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prady/Projects/holo_display
+CMAKE_SOURCE_DIR = /home/prady/Projects/http_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prady/Projects/holo_display/build
+CMAKE_BINARY_DIR = /home/prady/Projects/http_server/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prady/Projects/holo_display/build/CMakeFiles /home/prady/Projects/holo_display/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/prady/Projects/http_server/build/CMakeFiles /home/prady/Projects/http_server/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prady/Projects/holo_display/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/prady/Projects/http_server/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,30 +130,69 @@ flash/fast:
 .PHONY : flash/fast
 
 #=============================================================================
-# Target rules for targets named stm32h7xx_hal_driver
+# Target rules for targets named hal
 
 # Build rule for target.
-stm32h7xx_hal_driver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stm32h7xx_hal_driver
-.PHONY : stm32h7xx_hal_driver
+hal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hal
+.PHONY : hal
 
 # fast build rule for target.
-stm32h7xx_hal_driver/fast:
-	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/stm32h7xx_hal_driver.dir/build.make lib/CMakeFiles/stm32h7xx_hal_driver.dir/build
-.PHONY : stm32h7xx_hal_driver/fast
+hal/fast:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/hal.dir/build.make lib/CMakeFiles/hal.dir/build
+.PHONY : hal/fast
 
 #=============================================================================
-# Target rules for targets named holo_display
+# Target rules for targets named freertos
 
 # Build rule for target.
-holo_display: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 holo_display
-.PHONY : holo_display
+freertos: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 freertos
+.PHONY : freertos
 
 # fast build rule for target.
-holo_display/fast:
-	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/build
-.PHONY : holo_display/fast
+freertos/fast:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/freertos.dir/build.make lib/CMakeFiles/freertos.dir/build
+.PHONY : freertos/fast
+
+#=============================================================================
+# Target rules for targets named lwip
+
+# Build rule for target.
+lwip: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lwip
+.PHONY : lwip
+
+# fast build rule for target.
+lwip/fast:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lwip.dir/build.make lib/CMakeFiles/lwip.dir/build
+.PHONY : lwip/fast
+
+#=============================================================================
+# Target rules for targets named lib
+
+# Build rule for target.
+lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib
+.PHONY : lib
+
+# fast build rule for target.
+lib/fast:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/lib.dir/build.make lib/CMakeFiles/lib.dir/build
+.PHONY : lib/fast
+
+#=============================================================================
+# Target rules for targets named http_server
+
+# Build rule for target.
+http_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 http_server
+.PHONY : http_server
+
+# fast build rule for target.
+http_server/fast:
+	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/build
+.PHONY : http_server/fast
 
 # Help Target
 help:
@@ -164,8 +203,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... flash"
-	@echo "... holo_display"
-	@echo "... stm32h7xx_hal_driver"
+	@echo "... freertos"
+	@echo "... hal"
+	@echo "... http_server"
+	@echo "... lib"
+	@echo "... lwip"
 .PHONY : help
 
 

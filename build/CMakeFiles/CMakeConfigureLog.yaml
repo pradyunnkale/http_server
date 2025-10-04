@@ -20,6 +20,7 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -30,14 +31,20 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/bin/"
     searched_directories:
+      - "/home/prady/.cargo/bin/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -48,6 +55,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "message-v1"
@@ -56,7 +65,7 @@ events:
       - "CMakeLists.txt:5 (project)"
     message: |
       The target system is: Generic -  - ARM
-      The host system is: Linux - 6.16.8-arch2-1 - x86_64
+      The host system is: Linux - 6.16.8-arch3-1 - x86_64
   -
     kind: "find-v1"
     backtrace:
@@ -78,6 +87,7 @@ events:
       - "make"
       - "smake"
     candidate_directories:
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -88,8 +98,11 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
+      - "/home/prady/.cargo/bin/gmake"
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
       - "/usr/bin/gmake"
@@ -100,12 +113,18 @@ events:
       - "/usr/bin/vendor_perl/gmake"
       - "/usr/bin/core_perl/gmake"
       - "/usr/lib/rustup/bin/gmake"
+      - "/home/prady/.fzf/bin/gmake"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/gmake"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/home/prady/.cargo/bin/make"
       - "/usr/local/sbin/make"
       - "/usr/local/bin/make"
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -116,6 +135,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -137,6 +158,7 @@ events:
     names:
       - "arm-none-eabi-gcc"
     candidate_directories:
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -147,13 +169,19 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc"
       - "/usr/local/sbin/arm-none-eabi-gcc"
       - "/usr/local/bin/arm-none-eabi-gcc"
     found: "/usr/bin/arm-none-eabi-gcc"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -164,6 +192,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -192,6 +222,9 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -202,6 +235,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "message-v1"
@@ -260,6 +295,9 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -270,6 +308,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "message-v1"
@@ -291,7 +331,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
       The C compiler identification is GNU, found in:
-        /home/prady/Projects/holo_display/build/CMakeFiles/4.1.1/CompilerIdC/CMakeCCompilerId.o
+        /home/prady/Projects/http_server/build/CMakeFiles/4.1.2/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "find-v1"
@@ -315,6 +355,7 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -324,10 +365,15 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/arm-none-eabi-ar"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -338,6 +384,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -361,6 +409,7 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -370,10 +419,15 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/arm-none-eabi-ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -384,6 +438,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -407,6 +463,7 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -416,10 +473,15 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/arm-none-eabi-strip"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -430,6 +492,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -453,6 +517,7 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -462,10 +527,15 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/arm-none-eabi-ld"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -476,6 +546,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -499,6 +571,7 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -508,10 +581,15 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/arm-none-eabi-nm"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -522,6 +600,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -545,6 +625,7 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -554,10 +635,15 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/arm-none-eabi-objdump"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -568,6 +654,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -591,6 +679,7 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -600,10 +689,15 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/arm-none-eabi-readelf"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -614,6 +708,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -637,6 +733,7 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -646,9 +743,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/usr/bin/arm-none-eabi-dlltool"
+      - "/home/prady/.cargo/bin/arm-none-eabi-dlltool"
       - "/usr/local/sbin/arm-none-eabi-dlltool"
       - "/usr/local/bin/arm-none-eabi-dlltool"
       - "/opt/cuda/bin/arm-none-eabi-dlltool"
@@ -658,8 +758,11 @@ events:
       - "/usr/bin/vendor_perl/arm-none-eabi-dlltool"
       - "/usr/bin/core_perl/arm-none-eabi-dlltool"
       - "/usr/lib/rustup/bin/arm-none-eabi-dlltool"
+      - "/home/prady/.fzf/bin/arm-none-eabi-dlltool"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-dlltool"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-dlltool"
       - "/usr/bin/dlltool"
+      - "/home/prady/.cargo/bin/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/opt/cuda/bin/dlltool"
@@ -669,10 +772,15 @@ events:
       - "/usr/bin/vendor_perl/dlltool"
       - "/usr/bin/core_perl/dlltool"
       - "/usr/lib/rustup/bin/dlltool"
+      - "/home/prady/.fzf/bin/dlltool"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/dlltool"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -683,6 +791,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -706,6 +816,7 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -715,10 +826,15 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     found: "/usr/bin/arm-none-eabi-addr2line"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -729,6 +845,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -752,6 +870,7 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -761,9 +880,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/usr/bin/arm-none-eabi-tapi"
+      - "/home/prady/.cargo/bin/arm-none-eabi-tapi"
       - "/usr/local/sbin/arm-none-eabi-tapi"
       - "/usr/local/bin/arm-none-eabi-tapi"
       - "/opt/cuda/bin/arm-none-eabi-tapi"
@@ -773,8 +895,11 @@ events:
       - "/usr/bin/vendor_perl/arm-none-eabi-tapi"
       - "/usr/bin/core_perl/arm-none-eabi-tapi"
       - "/usr/lib/rustup/bin/arm-none-eabi-tapi"
+      - "/home/prady/.fzf/bin/arm-none-eabi-tapi"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-tapi"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-tapi"
       - "/usr/bin/tapi"
+      - "/home/prady/.cargo/bin/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
       - "/opt/cuda/bin/tapi"
@@ -784,10 +909,15 @@ events:
       - "/usr/bin/vendor_perl/tapi"
       - "/usr/bin/core_perl/tapi"
       - "/usr/lib/rustup/bin/tapi"
+      - "/home/prady/.fzf/bin/tapi"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/tapi"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
     found: false
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -798,6 +928,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -823,6 +955,7 @@ events:
       - "arm-none-eabi-gcc-ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -832,9 +965,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/local/sbin/arm-none-eabi-gcc-ar-14.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
       - "/opt/cuda/bin/arm-none-eabi-gcc-ar-14.2"
@@ -844,8 +980,11 @@ events:
       - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.2"
       - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.2"
       - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.2"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.2"
       - "/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ar-14"
       - "/usr/local/sbin/arm-none-eabi-gcc-ar-14"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
       - "/opt/cuda/bin/arm-none-eabi-gcc-ar-14"
@@ -855,8 +994,11 @@ events:
       - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14"
       - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14"
       - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14"
       - "/usr/bin/arm-none-eabi-gcc-ar14"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ar14"
       - "/usr/local/sbin/arm-none-eabi-gcc-ar14"
       - "/usr/local/bin/arm-none-eabi-gcc-ar14"
       - "/opt/cuda/bin/arm-none-eabi-gcc-ar14"
@@ -866,10 +1008,15 @@ events:
       - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar14"
       - "/usr/bin/core_perl/arm-none-eabi-gcc-ar14"
       - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar14"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ar14"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar14"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar14"
     found: "/usr/bin/arm-none-eabi-gcc-ar"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -880,6 +1027,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -905,6 +1054,7 @@ events:
       - "arm-none-eabi-gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -914,9 +1064,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
       - "/opt/cuda/bin/arm-none-eabi-gcc-ranlib-14.2"
@@ -926,8 +1079,11 @@ events:
       - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.2"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.2"
       - "/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-14"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
       - "/opt/cuda/bin/arm-none-eabi-gcc-ranlib-14"
@@ -937,8 +1093,11 @@ events:
       - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14"
       - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14"
       - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14"
       - "/usr/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ranlib14"
       - "/usr/local/sbin/arm-none-eabi-gcc-ranlib14"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
       - "/opt/cuda/bin/arm-none-eabi-gcc-ranlib14"
@@ -948,10 +1107,15 @@ events:
       - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib14"
       - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib14"
       - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib14"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib14"
     found: "/usr/bin/arm-none-eabi-gcc-ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -962,346 +1126,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
-        - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-g++"
-    candidate_directories:
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/bin/"
-      - "/opt/cuda/bin/"
-      - "/opt/cuda/nsight_compute/"
-      - "/opt/cuda/nsight_systems/bin/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-      - "/usr/lib/rustup/bin/"
-      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-    searched_directories:
-      - "/usr/local/sbin/arm-none-eabi-g++"
-      - "/usr/local/bin/arm-none-eabi-g++"
-    found: "/usr/bin/arm-none-eabi-g++"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/opt/cuda/bin"
-        - "/opt/cuda/nsight_compute"
-        - "/opt/cuda/nsight_systems/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-        - "/usr/lib/rustup/bin"
-        - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "file"
-    variable: "src_in"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "CMakeCXXCompilerId.cpp.in"
-    candidate_directories:
-      - "/usr/share/cmake/Modules/"
-    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/opt/cuda/bin"
-        - "/opt/cuda/nsight_compute"
-        - "/opt/cuda/nsight_systems/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-        - "/usr/lib/rustup/bin"
-        - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /usr/bin/arm-none-eabi-g++ 
-      Build flags: -mcpu=cortex-m7;-mthumb;-mfloat-abi=hard;-mfpu=fpv5-d16;-fno-exceptions;-fno-rtti
-      Id flags:  
-      
-      The output was:
-      1
-      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-exit.o): in function `exit':
-      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/stdlib/exit.c:65:(.text.exit+0x14): undefined reference to `_exit'
-      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-closer.o): in function `_close_r':
-      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/closer.c:47:(.text._close_r+0xc): undefined reference to `_close'
-      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lseekr.o): in function `_lseek_r':
-      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/lseekr.c:49:(.text._lseek_r+0x14): undefined reference to `_lseek'
-      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-readr.o): in function `_read_r':
-      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text._read_r+0x14): undefined reference to `_read'
-      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-writer.o): in function `_write_r':
-      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text._write_r+0x14): undefined reference to `_write'
-      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
-      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/sbrkr.c:51:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
-      collect2: error: ld returned 1 exit status
-      
-      
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "file"
-    variable: "src_in"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "CMakeCXXCompilerId.cpp.in"
-    candidate_directories:
-      - "/usr/share/cmake/Modules/"
-    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/opt/cuda/bin"
-        - "/opt/cuda/nsight_compute"
-        - "/opt/cuda/nsight_systems/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-        - "/usr/lib/rustup/bin"
-        - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/arm-none-eabi-g++ 
-      Build flags: -mcpu=cortex-m7;-mthumb;-mfloat-abi=hard;-mfpu=fpv5-d16;-fno-exceptions;-fno-rtti
-      Id flags: -c 
-      
-      The output was:
-      0
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
-      
-      The CXX compiler identification is GNU, found in:
-        /home/prady/Projects/holo_display/build/CMakeFiles/4.1.1/CompilerIdCXX/CMakeCXXCompilerId.o
-      
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER_AR"
-    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-gcc-ar-14.2"
-      - "arm-none-eabi-gcc-ar-14"
-      - "arm-none-eabi-gcc-ar14"
-      - "arm-none-eabi-gcc-ar"
-    candidate_directories:
-      - "/usr/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/opt/cuda/bin/"
-      - "/opt/cuda/nsight_compute/"
-      - "/opt/cuda/nsight_systems/bin/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-      - "/usr/lib/rustup/bin/"
-      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-    searched_directories:
-      - "/usr/bin/arm-none-eabi-gcc-ar-14.2"
-      - "/usr/local/sbin/arm-none-eabi-gcc-ar-14.2"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
-      - "/opt/cuda/bin/arm-none-eabi-gcc-ar-14.2"
-      - "/opt/cuda/nsight_compute/arm-none-eabi-gcc-ar-14.2"
-      - "/opt/cuda/nsight_systems/bin/arm-none-eabi-gcc-ar-14.2"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.2"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.2"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.2"
-      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar-14.2"
-      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.2"
-      - "/usr/bin/arm-none-eabi-gcc-ar-14"
-      - "/usr/local/sbin/arm-none-eabi-gcc-ar-14"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
-      - "/opt/cuda/bin/arm-none-eabi-gcc-ar-14"
-      - "/opt/cuda/nsight_compute/arm-none-eabi-gcc-ar-14"
-      - "/opt/cuda/nsight_systems/bin/arm-none-eabi-gcc-ar-14"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14"
-      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar-14"
-      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14"
-      - "/usr/bin/arm-none-eabi-gcc-ar14"
-      - "/usr/local/sbin/arm-none-eabi-gcc-ar14"
-      - "/usr/local/bin/arm-none-eabi-gcc-ar14"
-      - "/opt/cuda/bin/arm-none-eabi-gcc-ar14"
-      - "/opt/cuda/nsight_compute/arm-none-eabi-gcc-ar14"
-      - "/opt/cuda/nsight_systems/bin/arm-none-eabi-gcc-ar14"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar14"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar14"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar14"
-      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar14"
-      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar14"
-    found: "/usr/bin/arm-none-eabi-gcc-ar"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/opt/cuda/bin"
-        - "/opt/cuda/nsight_compute"
-        - "/opt/cuda/nsight_systems/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-        - "/usr/lib/rustup/bin"
-        - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
-      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER_RANLIB"
-    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "arm-none-eabi-gcc-ranlib-14.2"
-      - "arm-none-eabi-gcc-ranlib-14"
-      - "arm-none-eabi-gcc-ranlib14"
-      - "arm-none-eabi-gcc-ranlib"
-    candidate_directories:
-      - "/usr/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/opt/cuda/bin/"
-      - "/opt/cuda/nsight_compute/"
-      - "/opt/cuda/nsight_systems/bin/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-      - "/usr/lib/rustup/bin/"
-      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-    searched_directories:
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
-      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-14.2"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
-      - "/opt/cuda/bin/arm-none-eabi-gcc-ranlib-14.2"
-      - "/opt/cuda/nsight_compute/arm-none-eabi-gcc-ranlib-14.2"
-      - "/opt/cuda/nsight_systems/bin/arm-none-eabi-gcc-ranlib-14.2"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.2"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.2"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.2"
-      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib-14.2"
-      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.2"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/opt/cuda/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/opt/cuda/nsight_compute/arm-none-eabi-gcc-ranlib-14"
-      - "/opt/cuda/nsight_systems/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib-14"
-      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14"
-      - "/usr/bin/arm-none-eabi-gcc-ranlib14"
-      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib14"
-      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
-      - "/opt/cuda/bin/arm-none-eabi-gcc-ranlib14"
-      - "/opt/cuda/nsight_compute/arm-none-eabi-gcc-ranlib14"
-      - "/opt/cuda/nsight_systems/bin/arm-none-eabi-gcc-ranlib14"
-      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib14"
-      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib14"
-      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib14"
-      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib14"
-      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib14"
-    found: "/usr/bin/arm-none-eabi-gcc-ranlib"
-    search_context:
-      ENV{PATH}:
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/bin"
-        - "/opt/cuda/bin"
-        - "/opt/cuda/nsight_compute"
-        - "/opt/cuda/nsight_systems/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-        - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -1323,6 +1149,7 @@ events:
     names:
       - "arm-none-eabi-gcc"
     candidate_directories:
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
@@ -1333,13 +1160,19 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc"
       - "/usr/local/sbin/arm-none-eabi-gcc"
       - "/usr/local/bin/arm-none-eabi-gcc"
     found: "/usr/bin/arm-none-eabi-gcc"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1350,6 +1183,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "message-v1"
@@ -1388,6 +1223,7 @@ events:
       - "arm-none-eabi-gcc-ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -1397,9 +1233,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ar-"
       - "/usr/local/sbin/arm-none-eabi-gcc-ar-"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-"
       - "/opt/cuda/bin/arm-none-eabi-gcc-ar-"
@@ -1409,8 +1248,11 @@ events:
       - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-"
       - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-"
       - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar-"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ar-"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-"
       - "/usr/bin/arm-none-eabi-gcc-ar-"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ar-"
       - "/usr/local/sbin/arm-none-eabi-gcc-ar-"
       - "/usr/local/bin/arm-none-eabi-gcc-ar-"
       - "/opt/cuda/bin/arm-none-eabi-gcc-ar-"
@@ -1420,10 +1262,15 @@ events:
       - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-"
       - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-"
       - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar-"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ar-"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-"
     found: "/usr/bin/arm-none-eabi-gcc-ar"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1434,6 +1281,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "find-v1"
@@ -1459,6 +1308,7 @@ events:
       - "arm-none-eabi-gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
@@ -1468,9 +1318,12 @@ events:
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
       - "/opt/cuda/bin/arm-none-eabi-gcc-ranlib-"
@@ -1480,8 +1333,11 @@ events:
       - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-"
       - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-"
       - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-"
       - "/usr/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-"
       - "/usr/local/bin/arm-none-eabi-gcc-ranlib-"
       - "/opt/cuda/bin/arm-none-eabi-gcc-ranlib-"
@@ -1491,10 +1347,15 @@ events:
       - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-"
       - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-"
       - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ranlib-"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-"
       - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-"
     found: "/usr/bin/arm-none-eabi-gcc-ranlib"
     search_context:
       ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
@@ -1505,6 +1366,8 @@ events:
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
         - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
         - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
   -
     kind: "try_compile-v1"
@@ -1515,8 +1378,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-JybJjj"
-      binary: "/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-JybJjj"
+      source: "/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-cOWIAx"
+      binary: "/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-cOWIAx"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16"
       CMAKE_C_FLAGS_DEBUG: "-g3 -O0 -g"
@@ -1525,13 +1388,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-JybJjj'
+        Change Dir: '/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-cOWIAx'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_36542/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_36542.dir/build.make CMakeFiles/cmTC_36542.dir/build
-        make[1]: Entering directory '/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-JybJjj'
-        Building C object CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj
-        /usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16    -v -o CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_53c29/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_53c29.dir/build.make CMakeFiles/cmTC_53c29.dir/build
+        make[1]: Entering directory '/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-cOWIAx'
+        Building C object CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj
+        /usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16    -v -o CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -1539,8 +1402,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (Arch Repository) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-v' '-o' 'CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_36542.dir/'
-         /usr/lib/gcc/arm-none-eabi/14.2.0/cc1 -quiet -v -imultilib thumb/v7e-m+dp/hard -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_36542.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -mlibarch=armv7e-m+fp.dp -march=armv7e-m+fp.dp -version -o /tmp/ccjxwMKC.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-v' '-o' 'CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_53c29.dir/'
+         /usr/lib/gcc/arm-none-eabi/14.2.0/cc1 -quiet -v -imultilib thumb/v7e-m+dp/hard -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_53c29.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -mlibarch=armv7e-m+fp.dp -march=armv7e-m+fp.dp -version -o /tmp/cccfqh9f.s
         GNU C17 (Arch Repository) version 14.2.0 (arm-none-eabi)
         	compiled by GNU C version 14.2.1 20240910, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1555,14 +1418,14 @@ events:
          /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 27ee4863632474af78fa6d6c36d3934a
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-v' '-o' 'CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_36542.dir/'
-         /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp.dp -mfloat-abi=hard -mfpu=fpv5-d16 -meabi=5 -o CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj /tmp/ccjxwMKC.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-v' '-o' 'CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_53c29.dir/'
+         /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp.dp -mfloat-abi=hard -mfpu=fpv5-d16 -meabi=5 -o CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj /tmp/cccfqh9f.s
         GNU assembler version 2.43 (arm-none-eabi) using BFD version (GNU Binutils) 2.43
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/:/usr/arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-v' '-o' 'CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_36542
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36542.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-v' '-o' 'CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_53c29
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53c29.dir/link.txt --verbose=1
         Using built-in specs.
         Reading specs from /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/nosys.specs
         rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -1575,8 +1438,8 @@ events:
         gcc version 14.2.0 (Arch Repository) 
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/:/usr/arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_36542' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_36542.'
-         /usr/lib/gcc/arm-none-eabi/14.2.0/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG02wmL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/usr/arm-none-eabi -X -o cmTC_36542 /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crti.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtbegin.o /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o -L/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0 -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib -L/usr/arm-none-eabi/lib CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtend.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtn.o
+        COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_53c29' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_53c29.'
+         /usr/lib/gcc/arm-none-eabi/14.2.0/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchS3zW3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/usr/arm-none-eabi -X -o cmTC_53c29 /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crti.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtbegin.o /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o -L/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0 -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib -L/usr/arm-none-eabi/lib CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtend.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtn.o
         /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-closer.o): in function `_close_r':
         /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/closer.c:47:(.text._close_r+0xc): warning: _close is not implemented and will always fail
         /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lseekr.o): in function `_lseek_r':
@@ -1585,9 +1448,9 @@ events:
         /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text._read_r+0x14): warning: _read is not implemented and will always fail
         /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-writer.o): in function `_write_r':
         /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text._write_r+0x14): warning: _write is not implemented and will always fail
-        COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_36542' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_36542.'
-        /usr/bin/arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16  -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 --specs=nosys.specs -v CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj -o cmTC_36542
-        make[1]: Leaving directory '/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-JybJjj'
+        COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_53c29' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_53c29.'
+        /usr/bin/arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16  -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 --specs=nosys.specs -v CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj -o cmTC_53c29
+        make[1]: Leaving directory '/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-cOWIAx'
         
       exitCode: 0
   -
@@ -1620,13 +1483,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-JybJjj']
+        ignore line: [Change Dir: '/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-cOWIAx']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_36542/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_36542.dir/build.make CMakeFiles/cmTC_36542.dir/build]
-        ignore line: [make[1]: Entering directory '/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-JybJjj']
-        ignore line: [Building C object CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16    -v -o CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_53c29/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_53c29.dir/build.make CMakeFiles/cmTC_53c29.dir/build]
+        ignore line: [make[1]: Entering directory '/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-cOWIAx']
+        ignore line: [Building C object CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/usr/bin/arm-none-eabi-gcc   -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16    -v -o CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -1634,8 +1497,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (Arch Repository) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-v' '-o' 'CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_36542.dir/']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/cc1 -quiet -v -imultilib thumb/v7e-m+dp/hard -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_36542.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -mlibarch=armv7e-m+fp.dp -march=armv7e-m+fp.dp -version -o /tmp/ccjxwMKC.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-v' '-o' 'CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_53c29.dir/']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/cc1 -quiet -v -imultilib thumb/v7e-m+dp/hard -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_53c29.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -mlibarch=armv7e-m+fp.dp -march=armv7e-m+fp.dp -version -o /tmp/cccfqh9f.s]
         ignore line: [GNU C17 (Arch Repository) version 14.2.0 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 14.2.1 20240910  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1650,14 +1513,14 @@ events:
         ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 27ee4863632474af78fa6d6c36d3934a]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-v' '-o' 'CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_36542.dir/']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp.dp -mfloat-abi=hard -mfpu=fpv5-d16 -meabi=5 -o CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj /tmp/ccjxwMKC.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-v' '-o' 'CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_53c29.dir/']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp.dp -mfloat-abi=hard -mfpu=fpv5-d16 -meabi=5 -o CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj /tmp/cccfqh9f.s]
         ignore line: [GNU assembler version 2.43 (arm-none-eabi) using BFD version (GNU Binutils) 2.43]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/:/usr/arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-v' '-o' 'CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_36542]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36542.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-v' '-o' 'CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_53c29]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53c29.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/nosys.specs]
         ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -1670,13 +1533,13 @@ events:
         ignore line: [gcc version 14.2.0 (Arch Repository) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/:/usr/arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_36542' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_36542.']
-        link line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG02wmL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/usr/arm-none-eabi -X -o cmTC_36542 /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crti.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtbegin.o /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o -L/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0 -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib -L/usr/arm-none-eabi/lib CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtend.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_53c29' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_53c29.']
+        link line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchS3zW3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/usr/arm-none-eabi -X -o cmTC_53c29 /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crti.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtbegin.o /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o -L/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0 -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib -L/usr/arm-none-eabi/lib CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtend.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtn.o]
           arg [/usr/lib/gcc/arm-none-eabi/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/arm-none-eabi/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccG02wmL.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cchS3zW3.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -1685,7 +1548,7 @@ events:
           arg [--sysroot=/usr/arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_36542] ==> ignore
+          arg [cmTC_53c29] ==> ignore
           arg [/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crti.o] ==> obj [/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crti.o]
           arg [/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtbegin.o] ==> obj [/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtbegin.o]
           arg [/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o] ==> obj [/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o]
@@ -1695,7 +1558,7 @@ events:
           arg [-L/usr/lib/gcc/arm-none-eabi/14.2.0] ==> dir [/usr/lib/gcc/arm-none-eabi/14.2.0]
           arg [-L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib] ==> dir [/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib]
           arg [-L/usr/arm-none-eabi/lib] ==> dir [/usr/arm-none-eabi/lib]
-          arg [CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--start-group] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
@@ -1715,9 +1578,9 @@ events:
         ignore line: [/build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text._read_r+0x14): warning: _read is not implemented and will always fail]
         ignore line: [/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-writer.o): in function `_write_r':]
         ignore line: [/build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text._write_r+0x14): warning: _write is not implemented and will always fail]
-        ignore line: [COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_36542' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_36542.']
-        ignore line: [/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16  -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 --specs=nosys.specs -v CMakeFiles/cmTC_36542.dir/CMakeCCompilerABI.c.obj -o cmTC_36542]
-        ignore line: [make[1]: Leaving directory '/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-JybJjj']
+        ignore line: [COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_53c29' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_53c29.']
+        ignore line: [/usr/bin/arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16  -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 --specs=nosys.specs -v CMakeFiles/cmTC_53c29.dir/CMakeCCompilerABI.c.obj -o cmTC_53c29]
+        ignore line: [make[1]: Leaving directory '/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-cOWIAx']
         ignore line: []
         ignore line: []
         collapse obj [/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o] ==> [/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o]
@@ -1734,16 +1597,433 @@ events:
       
       
   -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "lib/CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-g++"
+    candidate_directories:
+      - "/home/prady/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/opt/cuda/bin/"
+      - "/opt/cuda/nsight_compute/"
+      - "/opt/cuda/nsight_systems/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
+      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/bin/"
+    searched_directories:
+      - "/home/prady/.cargo/bin/arm-none-eabi-g++"
+      - "/usr/local/sbin/arm-none-eabi-g++"
+      - "/usr/local/bin/arm-none-eabi-g++"
+    found: "/usr/bin/arm-none-eabi-g++"
+    search_context:
+      ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/cuda/bin"
+        - "/opt/cuda/nsight_compute"
+        - "/opt/cuda/nsight_systems/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "lib/CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/cuda/bin"
+        - "/opt/cuda/nsight_compute"
+        - "/opt/cuda/nsight_systems/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "lib/CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/arm-none-eabi-g++ 
+      Build flags: -mcpu=cortex-m7;-mthumb;-mfloat-abi=hard;-mfpu=fpv5-d16;-fno-exceptions;-fno-rtti
+      Id flags:  
+      
+      The output was:
+      1
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-exit.o): in function `exit':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/stdlib/exit.c:65:(.text.exit+0x14): undefined reference to `_exit'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-closer.o): in function `_close_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/closer.c:47:(.text._close_r+0xc): undefined reference to `_close'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/lseekr.c:49:(.text._lseek_r+0x14): undefined reference to `_lseek'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-readr.o): in function `_read_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text._read_r+0x14): undefined reference to `_read'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-writer.o): in function `_write_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text._write_r+0x14): undefined reference to `_write'
+      /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/sbrkr.c:51:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "lib/CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/cuda/bin"
+        - "/opt/cuda/nsight_compute"
+        - "/opt/cuda/nsight_systems/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/include"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "lib/CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/arm-none-eabi-g++ 
+      Build flags: -mcpu=cortex-m7;-mthumb;-mfloat-abi=hard;-mfpu=fpv5-d16;-fno-exceptions;-fno-rtti
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/prady/Projects/http_server/build/CMakeFiles/4.1.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "lib/CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ar-14.2"
+      - "arm-none-eabi-gcc-ar-14"
+      - "arm-none-eabi-gcc-ar14"
+      - "arm-none-eabi-gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/cuda/bin/"
+      - "/opt/cuda/nsight_compute/"
+      - "/opt/cuda/nsight_systems/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
+      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/bin/"
+    searched_directories:
+      - "/usr/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/cuda/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/cuda/nsight_compute/arm-none-eabi-gcc-ar-14.2"
+      - "/opt/cuda/nsight_systems/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14.2"
+      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14.2"
+      - "/bin/arm-none-eabi-gcc-ar-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/cuda/bin/arm-none-eabi-gcc-ar-14"
+      - "/opt/cuda/nsight_compute/arm-none-eabi-gcc-ar-14"
+      - "/opt/cuda/nsight_systems/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar-14"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ar-14"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar-14"
+      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar-14"
+      - "/bin/arm-none-eabi-gcc-ar-14"
+      - "/usr/bin/arm-none-eabi-gcc-ar14"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ar14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/cuda/bin/arm-none-eabi-gcc-ar14"
+      - "/opt/cuda/nsight_compute/arm-none-eabi-gcc-ar14"
+      - "/opt/cuda/nsight_systems/bin/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ar14"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ar14"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ar14"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ar14"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ar14"
+      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ar14"
+      - "/bin/arm-none-eabi-gcc-ar14"
+    found: "/usr/bin/arm-none-eabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/cuda/bin"
+        - "/opt/cuda/nsight_compute"
+        - "/opt/cuda/nsight_systems/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "lib/CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc-ranlib-14.2"
+      - "arm-none-eabi-gcc-ranlib-14"
+      - "arm-none-eabi-gcc-ranlib14"
+      - "arm-none-eabi-gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/prady/.cargo/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/opt/cuda/bin/"
+      - "/opt/cuda/nsight_compute/"
+      - "/opt/cuda/nsight_systems/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/home/prady/.fzf/bin/"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/"
+      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/bin/"
+    searched_directories:
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/cuda/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/cuda/nsight_compute/arm-none-eabi-gcc-ranlib-14.2"
+      - "/opt/cuda/nsight_systems/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14.2"
+      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14.2"
+      - "/bin/arm-none-eabi-gcc-ranlib-14.2"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/cuda/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/cuda/nsight_compute/arm-none-eabi-gcc-ranlib-14"
+      - "/opt/cuda/nsight_systems/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib-14"
+      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib-14"
+      - "/bin/arm-none-eabi-gcc-ranlib-14"
+      - "/usr/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/prady/.cargo/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/sbin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/local/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/cuda/bin/arm-none-eabi-gcc-ranlib14"
+      - "/opt/cuda/nsight_compute/arm-none-eabi-gcc-ranlib14"
+      - "/opt/cuda/nsight_systems/bin/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/site_perl/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/vendor_perl/arm-none-eabi-gcc-ranlib14"
+      - "/usr/bin/core_perl/arm-none-eabi-gcc-ranlib14"
+      - "/usr/lib/rustup/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/prady/.fzf/bin/arm-none-eabi-gcc-ranlib14"
+      - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts/arm-none-eabi-gcc-ranlib14"
+      - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-none-eabi-gcc-ranlib14"
+      - "/bin/arm-none-eabi-gcc-ranlib14"
+    found: "/usr/bin/arm-none-eabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/home/prady/.cargo/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/opt/cuda/bin"
+        - "/opt/cuda/nsight_compute"
+        - "/opt/cuda/nsight_systems/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/home/prady/.fzf/bin"
+        - "/home/prady/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts"
+        - "/home/prady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
     kind: "try_compile-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "lib/CMakeLists.txt:4 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-2SOO9Q"
-      binary: "/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-2SOO9Q"
+      source: "/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-dcadUU"
+      binary: "/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-dcadUU"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -fno-exceptions -fno-rtti"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1753,13 +2033,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-2SOO9Q'
+        Change Dir: '/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-dcadUU'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3f134/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_3f134.dir/build.make CMakeFiles/cmTC_3f134.dir/build
-        make[1]: Entering directory '/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-2SOO9Q'
-        Building CXX object CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj
-        /usr/bin/arm-none-eabi-g++   -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -fno-exceptions -fno-rtti    -v -o CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_690ff/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_690ff.dir/build.make CMakeFiles/cmTC_690ff.dir/build
+        make[1]: Entering directory '/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-dcadUU'
+        Building CXX object CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj
+        /usr/bin/arm-none-eabi-g++   -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -fno-exceptions -fno-rtti    -v -o CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -1767,8 +2047,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (Arch Repository) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_3f134.dir/'
-         /usr/lib/gcc/arm-none-eabi/14.2.0/cc1plus -quiet -v -imultilib thumb/v7e-m+dp/hard -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3f134.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -mlibarch=armv7e-m+fp.dp -march=armv7e-m+fp.dp -version -fno-exceptions -fno-rtti -o /tmp/cc37x8ce.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_690ff.dir/'
+         /usr/lib/gcc/arm-none-eabi/14.2.0/cc1plus -quiet -v -imultilib thumb/v7e-m+dp/hard -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_690ff.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -mlibarch=armv7e-m+fp.dp -march=armv7e-m+fp.dp -version -fno-exceptions -fno-rtti -o /tmp/ccqeX7zs.s
         GNU C++17 (Arch Repository) version 14.2.0 (arm-none-eabi)
         	compiled by GNU C version 14.2.1 20240910, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1786,14 +2066,14 @@ events:
          /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: de4da0f09cac33582cfad65715a8fb07
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_3f134.dir/'
-         /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp.dp -mfloat-abi=hard -mfpu=fpv5-d16 -meabi=5 -o CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc37x8ce.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_690ff.dir/'
+         /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp.dp -mfloat-abi=hard -mfpu=fpv5-d16 -meabi=5 -o CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccqeX7zs.s
         GNU assembler version 2.43 (arm-none-eabi) using BFD version (GNU Binutils) 2.43
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/:/usr/arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_3f134
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f134.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_690ff
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_690ff.dir/link.txt --verbose=1
         Using built-in specs.
         Reading specs from /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/nosys.specs
         rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -1806,8 +2086,8 @@ events:
         gcc version 14.2.0 (Arch Repository) 
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/:/usr/arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_3f134' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_3f134.'
-         /usr/lib/gcc/arm-none-eabi/14.2.0/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZnn9PI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/usr/arm-none-eabi -X -o cmTC_3f134 /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crti.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtbegin.o /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o -L/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0 -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib -L/usr/arm-none-eabi/lib CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtend.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtn.o
+        COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_690ff' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_690ff.'
+         /usr/lib/gcc/arm-none-eabi/14.2.0/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc532nKK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/usr/arm-none-eabi -X -o cmTC_690ff /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crti.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtbegin.o /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o -L/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0 -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib -L/usr/arm-none-eabi/lib CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtend.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtn.o
         /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-closer.o): in function `_close_r':
         /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/closer.c:47:(.text._close_r+0xc): warning: _close is not implemented and will always fail
         /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-lseekr.o): in function `_lseek_r':
@@ -1816,9 +2096,9 @@ events:
         /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text._read_r+0x14): warning: _read is not implemented and will always fail
         /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-writer.o): in function `_write_r':
         /build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text._write_r+0x14): warning: _write is not implemented and will always fail
-        COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_3f134' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_3f134.'
-        /usr/bin/arm-none-eabi-g++ -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -fno-exceptions -fno-rtti  -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 --specs=nosys.specs -v CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_3f134
-        make[1]: Leaving directory '/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-2SOO9Q'
+        COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_690ff' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_690ff.'
+        /usr/bin/arm-none-eabi-g++ -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -fno-exceptions -fno-rtti  -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 --specs=nosys.specs -v CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_690ff
+        make[1]: Leaving directory '/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-dcadUU'
         
       exitCode: 0
   -
@@ -1826,7 +2106,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "lib/CMakeLists.txt:4 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -1852,18 +2132,18 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
+      - "lib/CMakeLists.txt:4 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-2SOO9Q']
+        ignore line: [Change Dir: '/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-dcadUU']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3f134/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_3f134.dir/build.make CMakeFiles/cmTC_3f134.dir/build]
-        ignore line: [make[1]: Entering directory '/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-2SOO9Q']
-        ignore line: [Building CXX object CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/usr/bin/arm-none-eabi-g++   -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -fno-exceptions -fno-rtti    -v -o CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_690ff/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_690ff.dir/build.make CMakeFiles/cmTC_690ff.dir/build]
+        ignore line: [make[1]: Entering directory '/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-dcadUU']
+        ignore line: [Building CXX object CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/usr/bin/arm-none-eabi-g++   -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -fno-exceptions -fno-rtti    -v -o CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -1871,8 +2151,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (Arch Repository) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_3f134.dir/']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/cc1plus -quiet -v -imultilib thumb/v7e-m+dp/hard -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3f134.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -mlibarch=armv7e-m+fp.dp -march=armv7e-m+fp.dp -version -fno-exceptions -fno-rtti -o /tmp/cc37x8ce.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_690ff.dir/']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/cc1plus -quiet -v -imultilib thumb/v7e-m+dp/hard -D__USES_INITFINI__ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_690ff.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -mlibarch=armv7e-m+fp.dp -march=armv7e-m+fp.dp -version -fno-exceptions -fno-rtti -o /tmp/ccqeX7zs.s]
         ignore line: [GNU C++17 (Arch Repository) version 14.2.0 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 14.2.1 20240910  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1890,14 +2170,14 @@ events:
         ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: de4da0f09cac33582cfad65715a8fb07]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_3f134.dir/']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp.dp -mfloat-abi=hard -mfpu=fpv5-d16 -meabi=5 -o CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc37x8ce.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_690ff.dir/']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/as -v -march=armv7e-m+fp.dp -mfloat-abi=hard -mfpu=fpv5-d16 -meabi=5 -o CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccqeX7zs.s]
         ignore line: [GNU assembler version 2.43 (arm-none-eabi) using BFD version (GNU Binutils) 2.43]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/:/usr/arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_3f134]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f134.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-v' '-o' 'CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_690ff]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_690ff.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/nosys.specs]
         ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -1910,13 +2190,13 @@ events:
         ignore line: [gcc version 14.2.0 (Arch Repository) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard/:/usr/lib/gcc/arm-none-eabi/14.2.0/:/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/:/usr/arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_3f134' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_3f134.']
-        link line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZnn9PI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/usr/arm-none-eabi -X -o cmTC_3f134 /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crti.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtbegin.o /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o -L/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0 -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib -L/usr/arm-none-eabi/lib CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtend.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_690ff' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_690ff.']
+        link line: [ /usr/lib/gcc/arm-none-eabi/14.2.0/collect2 -plugin /usr/lib/gcc/arm-none-eabi/14.2.0/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc532nKK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/usr/arm-none-eabi -X -o cmTC_690ff /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crti.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtbegin.o /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o -L/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard -L/usr/lib/gcc/arm-none-eabi/14.2.0 -L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib -L/usr/arm-none-eabi/lib CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtend.o /usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtn.o]
           arg [/usr/lib/gcc/arm-none-eabi/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/arm-none-eabi/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/arm-none-eabi/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccZnn9PI.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc532nKK.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -1925,7 +2205,7 @@ events:
           arg [--sysroot=/usr/arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_3f134] ==> ignore
+          arg [cmTC_690ff] ==> ignore
           arg [/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crti.o] ==> obj [/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crti.o]
           arg [/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtbegin.o] ==> obj [/usr/lib/gcc/arm-none-eabi/14.2.0/thumb/v7e-m+dp/hard/crtbegin.o]
           arg [/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o] ==> obj [/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o]
@@ -1935,7 +2215,7 @@ events:
           arg [-L/usr/lib/gcc/arm-none-eabi/14.2.0] ==> dir [/usr/lib/gcc/arm-none-eabi/14.2.0]
           arg [-L/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib] ==> dir [/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib]
           arg [-L/usr/arm-none-eabi/lib] ==> dir [/usr/arm-none-eabi/lib]
-          arg [CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [--start-group] ==> ignore
@@ -1957,9 +2237,9 @@ events:
         ignore line: [/build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text._read_r+0x14): warning: _read is not implemented and will always fail]
         ignore line: [/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/bin/ld: /usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc.a(libc_a-writer.o): in function `_write_r':]
         ignore line: [/build/arm-none-eabi-newlib/src/build-newlib/arm-none-eabi/thumb/v7e-m+dp/hard/newlib/../../../../../../newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text._write_r+0x14): warning: _write is not implemented and will always fail]
-        ignore line: [COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_3f134' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_3f134.']
-        ignore line: [/usr/bin/arm-none-eabi-g++ -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -fno-exceptions -fno-rtti  -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 --specs=nosys.specs -v CMakeFiles/cmTC_3f134.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_3f134]
-        ignore line: [make[1]: Leaving directory '/home/prady/Projects/holo_display/build/CMakeFiles/CMakeScratch/TryCompile-2SOO9Q']
+        ignore line: [COLLECT_GCC_OPTIONS='-mfloat-abi=hard' '-mfpu=fpv5-d16' '-fno-exceptions' '-fno-rtti' '-mcpu=cortex-m7' '-mthumb' '-mfloat-abi=hard' '-mfpu=fpv5-d16' '-specs=nosys.specs' '-v' '-o' 'cmTC_690ff' '-mlibarch=armv7e-m+fp.dp' '-march=armv7e-m+fp.dp' '-dumpdir' 'cmTC_690ff.']
+        ignore line: [/usr/bin/arm-none-eabi-g++ -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -fno-exceptions -fno-rtti  -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 --specs=nosys.specs -v CMakeFiles/cmTC_690ff.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_690ff]
+        ignore line: [make[1]: Leaving directory '/home/prady/Projects/http_server/build/CMakeFiles/CMakeScratch/TryCompile-dcadUU']
         ignore line: []
         ignore line: []
         collapse obj [/usr/lib/gcc/arm-none-eabi/14.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o] ==> [/usr/arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o]

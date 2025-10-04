@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prady/Projects/holo_display
+CMAKE_SOURCE_DIR = /home/prady/Projects/http_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prady/Projects/holo_display/build
+CMAKE_BINARY_DIR = /home/prady/Projects/http_server/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/prady/Projects/holo_display/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/prady/Projects/holo_display/build/CMakeFiles /home/prady/Projects/holo_display/build/app//CMakeFiles/progress.marks
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prady/Projects/holo_display/build/CMakeFiles 0
+	cd /home/prady/Projects/http_server/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/prady/Projects/http_server/build/CMakeFiles /home/prady/Projects/http_server/build/app//CMakeFiles/progress.marks
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/prady/Projects/http_server/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/clean
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,39 +103,39 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/prady/Projects/holo_display/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/prady/Projects/http_server/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-app/CMakeFiles/holo_display.dir/rule:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/holo_display.dir/rule
-.PHONY : app/CMakeFiles/holo_display.dir/rule
+app/CMakeFiles/http_server.dir/rule:
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/http_server.dir/rule
+.PHONY : app/CMakeFiles/http_server.dir/rule
 
 # Convenience name for target.
-holo_display: app/CMakeFiles/holo_display.dir/rule
-.PHONY : holo_display
+http_server: app/CMakeFiles/http_server.dir/rule
+.PHONY : http_server
 
 # fast build rule for target.
-holo_display/fast:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/build
-.PHONY : holo_display/fast
+http_server/fast:
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/build
+.PHONY : http_server/fast
 
 __/config/stm32h7xx_it.obj: __/config/stm32h7xx_it.c.obj
 .PHONY : __/config/stm32h7xx_it.obj
 
 # target to build an object file
 __/config/stm32h7xx_it.c.obj:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.obj
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/config/stm32h7xx_it.c.obj
 .PHONY : __/config/stm32h7xx_it.c.obj
 
 __/config/stm32h7xx_it.i: __/config/stm32h7xx_it.c.i
@@ -143,7 +143,7 @@ __/config/stm32h7xx_it.i: __/config/stm32h7xx_it.c.i
 
 # target to preprocess a source file
 __/config/stm32h7xx_it.c.i:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.i
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/config/stm32h7xx_it.c.i
 .PHONY : __/config/stm32h7xx_it.c.i
 
 __/config/stm32h7xx_it.s: __/config/stm32h7xx_it.c.s
@@ -151,7 +151,7 @@ __/config/stm32h7xx_it.s: __/config/stm32h7xx_it.c.s
 
 # target to generate assembly for a file
 __/config/stm32h7xx_it.c.s:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/config/stm32h7xx_it.c.s
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/config/stm32h7xx_it.c.s
 .PHONY : __/config/stm32h7xx_it.c.s
 
 __/config/system_stm32h7xx.obj: __/config/system_stm32h7xx.c.obj
@@ -159,7 +159,7 @@ __/config/system_stm32h7xx.obj: __/config/system_stm32h7xx.c.obj
 
 # target to build an object file
 __/config/system_stm32h7xx.c.obj:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.obj
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/config/system_stm32h7xx.c.obj
 .PHONY : __/config/system_stm32h7xx.c.obj
 
 __/config/system_stm32h7xx.i: __/config/system_stm32h7xx.c.i
@@ -167,7 +167,7 @@ __/config/system_stm32h7xx.i: __/config/system_stm32h7xx.c.i
 
 # target to preprocess a source file
 __/config/system_stm32h7xx.c.i:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.i
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/config/system_stm32h7xx.c.i
 .PHONY : __/config/system_stm32h7xx.c.i
 
 __/config/system_stm32h7xx.s: __/config/system_stm32h7xx.c.s
@@ -175,64 +175,88 @@ __/config/system_stm32h7xx.s: __/config/system_stm32h7xx.c.s
 
 # target to generate assembly for a file
 __/config/system_stm32h7xx.c.s:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/config/system_stm32h7xx.c.s
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/config/system_stm32h7xx.c.s
 .PHONY : __/config/system_stm32h7xx.c.s
 
-__/drivers/ledcontrol/ledcontrol.obj: __/drivers/ledcontrol/ledcontrol.cpp.obj
-.PHONY : __/drivers/ledcontrol/ledcontrol.obj
+__/drivers/ethernet/ethernet.obj: __/drivers/ethernet/ethernet.c.obj
+.PHONY : __/drivers/ethernet/ethernet.obj
 
 # target to build an object file
-__/drivers/ledcontrol/ledcontrol.cpp.obj:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.obj
-.PHONY : __/drivers/ledcontrol/ledcontrol.cpp.obj
+__/drivers/ethernet/ethernet.c.obj:
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/drivers/ethernet/ethernet.c.obj
+.PHONY : __/drivers/ethernet/ethernet.c.obj
 
-__/drivers/ledcontrol/ledcontrol.i: __/drivers/ledcontrol/ledcontrol.cpp.i
-.PHONY : __/drivers/ledcontrol/ledcontrol.i
+__/drivers/ethernet/ethernet.i: __/drivers/ethernet/ethernet.c.i
+.PHONY : __/drivers/ethernet/ethernet.i
 
 # target to preprocess a source file
-__/drivers/ledcontrol/ledcontrol.cpp.i:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.i
-.PHONY : __/drivers/ledcontrol/ledcontrol.cpp.i
+__/drivers/ethernet/ethernet.c.i:
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/drivers/ethernet/ethernet.c.i
+.PHONY : __/drivers/ethernet/ethernet.c.i
 
-__/drivers/ledcontrol/ledcontrol.s: __/drivers/ledcontrol/ledcontrol.cpp.s
-.PHONY : __/drivers/ledcontrol/ledcontrol.s
+__/drivers/ethernet/ethernet.s: __/drivers/ethernet/ethernet.c.s
+.PHONY : __/drivers/ethernet/ethernet.s
 
 # target to generate assembly for a file
-__/drivers/ledcontrol/ledcontrol.cpp.s:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/drivers/ledcontrol/ledcontrol.cpp.s
-.PHONY : __/drivers/ledcontrol/ledcontrol.cpp.s
+__/drivers/ethernet/ethernet.c.s:
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/drivers/ethernet/ethernet.c.s
+.PHONY : __/drivers/ethernet/ethernet.c.s
+
+__/drivers/ethernet/ethernetif.obj: __/drivers/ethernet/ethernetif.c.obj
+.PHONY : __/drivers/ethernet/ethernetif.obj
+
+# target to build an object file
+__/drivers/ethernet/ethernetif.c.obj:
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/drivers/ethernet/ethernetif.c.obj
+.PHONY : __/drivers/ethernet/ethernetif.c.obj
+
+__/drivers/ethernet/ethernetif.i: __/drivers/ethernet/ethernetif.c.i
+.PHONY : __/drivers/ethernet/ethernetif.i
+
+# target to preprocess a source file
+__/drivers/ethernet/ethernetif.c.i:
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/drivers/ethernet/ethernetif.c.i
+.PHONY : __/drivers/ethernet/ethernetif.c.i
+
+__/drivers/ethernet/ethernetif.s: __/drivers/ethernet/ethernetif.c.s
+.PHONY : __/drivers/ethernet/ethernetif.s
+
+# target to generate assembly for a file
+__/drivers/ethernet/ethernetif.c.s:
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/drivers/ethernet/ethernetif.c.s
+.PHONY : __/drivers/ethernet/ethernetif.c.s
 
 __/startup/startup_stm32h753xx.obj: __/startup/startup_stm32h753xx.s.obj
 .PHONY : __/startup/startup_stm32h753xx.obj
 
 # target to build an object file
 __/startup/startup_stm32h753xx.s.obj:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/__/startup/startup_stm32h753xx.s.obj
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/__/startup/startup_stm32h753xx.s.obj
 .PHONY : __/startup/startup_stm32h753xx.s.obj
 
-display/main.obj: display/main.cpp.obj
-.PHONY : display/main.obj
+server/main.obj: server/main.c.obj
+.PHONY : server/main.obj
 
 # target to build an object file
-display/main.cpp.obj:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/display/main.cpp.obj
-.PHONY : display/main.cpp.obj
+server/main.c.obj:
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/server/main.c.obj
+.PHONY : server/main.c.obj
 
-display/main.i: display/main.cpp.i
-.PHONY : display/main.i
+server/main.i: server/main.c.i
+.PHONY : server/main.i
 
 # target to preprocess a source file
-display/main.cpp.i:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/display/main.cpp.i
-.PHONY : display/main.cpp.i
+server/main.c.i:
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/server/main.c.i
+.PHONY : server/main.c.i
 
-display/main.s: display/main.cpp.s
-.PHONY : display/main.s
+server/main.s: server/main.c.s
+.PHONY : server/main.s
 
 # target to generate assembly for a file
-display/main.cpp.s:
-	cd /home/prady/Projects/holo_display/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/holo_display.dir/build.make app/CMakeFiles/holo_display.dir/display/main.cpp.s
-.PHONY : display/main.cpp.s
+server/main.c.s:
+	cd /home/prady/Projects/http_server/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/http_server.dir/build.make app/CMakeFiles/http_server.dir/server/main.c.s
+.PHONY : server/main.c.s
 
 # Help Target
 help:
@@ -242,20 +266,23 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... holo_display"
+	@echo "... http_server"
 	@echo "... __/config/stm32h7xx_it.obj"
 	@echo "... __/config/stm32h7xx_it.i"
 	@echo "... __/config/stm32h7xx_it.s"
 	@echo "... __/config/system_stm32h7xx.obj"
 	@echo "... __/config/system_stm32h7xx.i"
 	@echo "... __/config/system_stm32h7xx.s"
-	@echo "... __/drivers/ledcontrol/ledcontrol.obj"
-	@echo "... __/drivers/ledcontrol/ledcontrol.i"
-	@echo "... __/drivers/ledcontrol/ledcontrol.s"
+	@echo "... __/drivers/ethernet/ethernet.obj"
+	@echo "... __/drivers/ethernet/ethernet.i"
+	@echo "... __/drivers/ethernet/ethernet.s"
+	@echo "... __/drivers/ethernet/ethernetif.obj"
+	@echo "... __/drivers/ethernet/ethernetif.i"
+	@echo "... __/drivers/ethernet/ethernetif.s"
 	@echo "... __/startup/startup_stm32h753xx.obj"
-	@echo "... display/main.obj"
-	@echo "... display/main.i"
-	@echo "... display/main.s"
+	@echo "... server/main.obj"
+	@echo "... server/main.i"
+	@echo "... server/main.s"
 .PHONY : help
 
 
@@ -267,6 +294,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/prady/Projects/holo_display/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/prady/Projects/http_server/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

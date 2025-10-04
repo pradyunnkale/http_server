@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prady/Projects/holo_display
+CMAKE_SOURCE_DIR = /home/prady/Projects/http_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prady/Projects/holo_display/build
+CMAKE_BINARY_DIR = /home/prady/Projects/http_server/build
 
 # Utility rule file for flash.
 
@@ -66,9 +66,9 @@ include CMakeFiles/flash.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/flash.dir/progress.make
 
-CMakeFiles/flash: app/holo_display
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/prady/Projects/holo_display/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Flashing holo_display to target"
-	openocd -f /home/prady/Projects/holo_display/tools/openocd.cfg -c program\ /home/prady/Projects/holo_display/build/app/holo_display\ verify\ reset\ exit
+CMakeFiles/flash: app/http_server
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/prady/Projects/http_server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Flashing http_server to target"
+	openocd -f /home/prady/Projects/http_server/tools/openocd.cfg -c program\ /home/prady/Projects/http_server/build/app/http_server\ verify\ reset\ exit
 
 CMakeFiles/flash.dir/codegen:
 .PHONY : CMakeFiles/flash.dir/codegen
@@ -86,6 +86,6 @@ CMakeFiles/flash.dir/clean:
 .PHONY : CMakeFiles/flash.dir/clean
 
 CMakeFiles/flash.dir/depend:
-	cd /home/prady/Projects/holo_display/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prady/Projects/holo_display /home/prady/Projects/holo_display /home/prady/Projects/holo_display/build /home/prady/Projects/holo_display/build /home/prady/Projects/holo_display/build/CMakeFiles/flash.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/prady/Projects/http_server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prady/Projects/http_server /home/prady/Projects/http_server /home/prady/Projects/http_server/build /home/prady/Projects/http_server/build /home/prady/Projects/http_server/build/CMakeFiles/flash.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/flash.dir/depend
 

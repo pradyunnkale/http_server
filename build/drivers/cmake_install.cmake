@@ -1,4 +1,4 @@
-# Install script for directory: /home/prady/Projects/holo_display/drivers
+# Install script for directory: /home/prady/Projects/http_server/drivers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/prady/Projects/holo_display/build/drivers/install_local_manifest.txt"
+  file(WRITE "/home/prady/Projects/http_server/build/drivers/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

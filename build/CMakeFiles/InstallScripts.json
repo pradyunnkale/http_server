@@ -1,10 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/prady/Projects/holo_display/build/cmake_install.cmake",
-		"/home/prady/Projects/holo_display/build/lib/cmake_install.cmake",
-		"/home/prady/Projects/holo_display/build/drivers/cmake_install.cmake",
-		"/home/prady/Projects/holo_display/build/app/cmake_install.cmake"
+		"/home/prady/Projects/http_server/build/cmake_install.cmake",
+		"/home/prady/Projects/http_server/build/lib/cmake_install.cmake",
+		"/home/prady/Projects/http_server/build/drivers/cmake_install.cmake",
+		"/home/prady/Projects/http_server/build/app/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
