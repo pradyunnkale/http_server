@@ -1,4 +1,4 @@
-# Volumetric Display
+# HTTP Server
 
 Repository for the volumetric display I am making. Using the NUCLEO-H753ZI 
 
